@@ -106,11 +106,49 @@
       "i4 i4 i4 i4 i4 i4 i4 i4 i4 i4 i4 i4"
       "i5 i5 i5 i5 i5 i5 i5 i5 i5 i5 i5 i5"
       "i6 i6 i6 i6 i6 i6 i6 i6 i6 i6 i6 i6"
-      "i7 i7 i7 i7 i7 i7 i7 i7 i7 i7 i7 i7"
+      "i7 i7 i7 i7 i7 i7 i7 i7 i7 i7 i7 i7";
   }
 
   .destination_img_grid > div p {
     font-size: 20px;
     font-weight: 700;
+  }
+  /* ! service section */
+
+  .service {
+    margin-top: 24px;
+  }
+
+  .service_content {
+    gap: 16px;
+  }
+
+  .service_title {
+    font-size: 20px;
+  }
+
+  .service_desc {
+    max-width: 309px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .service_card_container {
+    margin-top: 20px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px 0;
+    grid-template-areas:
+      "c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1"
+      "c2 c2 c2 c2 c2 c2 c2 c2 c2 c2 c2 c2"
+      "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 ";
+  }
+  .service .card_title {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+
+  .service .card_desc {
+   font-size: 14px;
+   line-height: 24px;
   }
 }
