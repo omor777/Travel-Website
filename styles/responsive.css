@@ -53,6 +53,7 @@
 
   /* ! popular section */
   .popular {
+    margin-top: 24px;
     flex-direction: column;
     gap: 24px;
   }
@@ -66,13 +67,50 @@
   }
 
   .popular_content_desc,
-.popular_list li {
-  font-size: 14px;
-  line-height: 24px;
-}
+  .popular_list li {
+    font-size: 14px;
+    line-height: 24px;
+  }
 
-.popular_list li {
-  margin-bottom: 10px;
-}
+  .popular_list li {
+    margin-bottom: 10px;
+  }
 
+  /* ! destination section */
+  .destination {
+    margin-top: 24px;
+  }
+
+  .destination_content {
+    gap: 16px;
+  }
+
+  .destination_title {
+    font-size: 20px;
+  }
+
+  .destination_desc {
+    max-width: 309px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .destination_img_grid {
+    margin-top: 20px;
+    grid-template-rows: repeat(7, 176px);
+    gap: 16px 0;
+    grid-template-areas:
+      "i1 i1 i1 i1 i1 i1 i1 i1 i1 i1 i1 i1"
+      "i2 i2 i2 i2 i2 i2 i2 i2 i2 i2 i2 i2"
+      "i3 i3 i3 i3 i3 i3 i3 i3 i3 i3 i3 i3"
+      "i4 i4 i4 i4 i4 i4 i4 i4 i4 i4 i4 i4"
+      "i5 i5 i5 i5 i5 i5 i5 i5 i5 i5 i5 i5"
+      "i6 i6 i6 i6 i6 i6 i6 i6 i6 i6 i6 i6"
+      "i7 i7 i7 i7 i7 i7 i7 i7 i7 i7 i7 i7"
+  }
+
+  .destination_img_grid > div p {
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
