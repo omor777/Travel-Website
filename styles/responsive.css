@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) {
+  body {
+    padding: 0 20px;
+  }
   nav {
     padding: 20px;
   }
@@ -19,4 +22,33 @@
     display: block;
     font-size: 25px;
   }
+
+  /* ! banner section */
+  .banner {
+    width: 100%;
+    padding: 32px 24px;
+    gap: unset;
+  }
+  .banner form {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 32px;
+  }
+  .banner form input,
+  .banner form button {
+    width: 100%;
+  }
+  .dropdown {
+    width: 100%;
+  }
+
+  .banner_title {
+    font-size: 22px;
+  }
+  .banner_desc {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+  }
+
 }
