@@ -166,7 +166,7 @@
     grid-column: 1 / -1;
   }
 
-  .newsletter_content  {
+  .newsletter_content {
     padding: 24px;
   }
 
@@ -190,9 +190,40 @@
   .newsletter_title {
     font-size: 20px;
   }
-  
-.newsletter_desc {
-  margin-top: 10px;
-  font-size: 14px;
-}
+
+  .newsletter_desc {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  /* ! footer section */
+  footer {
+    margin-top: 20px;
+    padding: 32px 10px;
+  }
+  .footer_title {
+    gap: 9px;
+  }
+  .footer_title h3 {
+    font-size: 21px;
+  }
+
+  .footer_desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer_desc {
+    margin-bottom: 16px;
+  }
+
+  .footer_link {
+    margin-bottom: 24px;
+  }
+
+  footer .hr {
+    margin-bottom: 24px;
+  }
+
+  .footer_link a i {
+    font-size: 20px;
+  }
 }
