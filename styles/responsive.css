@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 20px;
+  }
+  nav > ul {
+    display: none;
+  }
+  .logo_container {
+    gap: 10px;
+  }
+  .logo_container h3 {
+    font-size: 22px;
+  }
+  .logo_container img {
+    width: 29px;
+    height: 33px;
+  }
+  .hamburger_menu {
+    display: block;
+    font-size: 25px;
+  }
+}
