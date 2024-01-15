@@ -148,7 +148,51 @@
   }
 
   .service .card_desc {
-   font-size: 14px;
-   line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
   }
+
+  /* ! newsletter section */
+  .newsletter {
+    margin-top: 20px;
+  }
+  .newsletter {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .newsletter_content {
+    grid-column: 1 / -1;
+  }
+  .newsletter_img {
+    grid-column: 1 / -1;
+  }
+
+  .newsletter_content  {
+    padding: 24px;
+  }
+
+  .newsletter_img .discount {
+    width: max-content;
+    padding: 1rem 1.5rem;
+  }
+
+  .newsletter_img .discount p {
+    font-size: 15.854px;
+  }
+
+  .newsletter_img .discount h3 {
+    font-size: 21.138px;
+  }
+
+  .newsletter_img .discount {
+    bottom: 9%;
+  }
+
+  .newsletter_title {
+    font-size: 20px;
+  }
+  
+.newsletter_desc {
+  margin-top: 10px;
+  font-size: 14px;
+}
 }
