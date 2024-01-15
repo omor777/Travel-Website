@@ -51,4 +51,28 @@
     margin-top: 10px;
   }
 
+  /* ! popular section */
+  .popular {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .popular_content {
+    gap: 16px;
+  }
+
+  .popular_content_title {
+    font-size: 20px;
+  }
+
+  .popular_content_desc,
+.popular_list li {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.popular_list li {
+  margin-bottom: 10px;
+}
+
 }
