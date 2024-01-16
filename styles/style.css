@@ -697,6 +697,9 @@ footer .hr {
 /* !  footer section end here */
 
 /* ! deals and discount section start here */
+.deals_and_discount {
+  margin-top: 100px;
+}
 .deals_and_discount_title {
   margin-bottom: 24px;
   color: #131318;
@@ -736,20 +739,18 @@ footer .hr {
 
 .deals_and_discount_grid .item {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
+  grid-template-columns: repeat(24, 1fr);
   align-items: center;
-
 }
 
 .deals_and_discount_grid .item-1 .discount_card {
- grid-column: 7 / span 5;
+  grid-column: 13 / span 11;
 }
-.deals_and_discount_grid .item-2 .discount_card{
-
-   grid-column: 2 / span 5;
+.deals_and_discount_grid .item-2 .discount_card {
+  grid-column: 2 / span 11;
 }
-.deals_and_discount_grid .item-3  .discount_card{
-  grid-column: 7 / span 5;
+.deals_and_discount_grid .item-3 .discount_card {
+  grid-column: 13 / span 11;
 }
 
 .deals_and_discount_grid .item-2 {
@@ -828,3 +829,240 @@ footer .hr {
   font-weight: 800;
 }
 /* ! deals and discount section end here */
+
+/* ! perfect place section start here */
+
+.perfect_place {
+  margin-top: 100px;
+}
+
+.perfect_place_title {
+  margin-bottom: 24px;
+  max-width: 448px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.perfect_place_desc {
+  margin-bottom: 24px;
+  max-width: 532px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.perfect_place_list {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.perfect_place_list li {
+  list-style: inside;
+  max-width: 518px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.perfect_place_btn {
+  padding: 14px 42px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.perfect_place_img {
+  min-height: 424px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%),
+    url("../Images/perfect-place.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+
+  position: relative;
+}
+
+.perfect_place_img > p {
+  max-width: 276px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.perfect_place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 28px;
+}
+.controls {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  bottom: 5%;
+}
+
+.controls img,
+.range {
+  cursor: pointer;
+}
+
+.controls .range {
+  width: 100%;
+  height: 4px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+
+.controls .range::before {
+  content: "";
+  width: 35%;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 8px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls_left,
+.controls_right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.controls .time {
+  color: #f3f3f3;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* ! perfect place section end here */
+
+/* ! top destination section start here */
+.top_destination {
+  margin-top: 100px;
+}
+.top_destination_title {
+  margin-bottom: 24px;
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.top_destination_desc {
+  margin: 0 auto;
+  max-width: 643px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.top_destination_cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.top_destination_cards .card {
+  padding: 12px;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.top_destination_cards .card_content {
+
+  grid-column: 6 / span 6;
+}
+
+.top_destination_cards .card_img {
+  grid-column: 1 / span 5;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.top_destination_cards .card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* border-radius: 6px; */
+}
+.top_destination_cards .card_title_and_price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.top_destination_cards .card_title_and_price h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+}
+.top_destination_cards .card_title_and_price p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+.top_destination_cards .ratings {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.top_destination_cards .ratings i {
+  color: rgb(255, 218, 6);
+}
+
+.top_destination_cards .card_desc {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* ! top destination section end here */

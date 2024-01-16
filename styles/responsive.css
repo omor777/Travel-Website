@@ -232,6 +232,9 @@
   }
 
   /* ! deals and discount section */
+  .deals_and_discount {
+    margin-top: 24px;
+  }
 
   .deals_and_discount_title {
     margin-bottom: 10px;
@@ -294,5 +297,76 @@
   }
   .discount_card .heading span {
     font-size: 14px;
+  }
+
+  /* ! perfect place section */
+  .perfect_place {
+    margin-top: 24px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px 0;
+  }
+
+  .perfect_place_img > p {
+    font-size: 20px;
+  }
+
+  .perfect_place_title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    max-width: 248px;
+    line-height: 30px;
+  }
+
+  .perfect_place_desc {
+    margin-bottom: 16px;
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .perfect_place_list li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .perfect_place_lis {
+    margin-bottom: 24px;
+  }
+
+  /* ! top destination section */
+  .top_destination {
+    margin-top: 24px;
+  }
+  .top_destination_cards {
+    margin-top: 24px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+  .top_destination_cards .card {
+    padding: unset;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .top_destination_cards .card_content {
+    padding: 1.5rem 1rem;
+    grid-column: 1 / -1;
+  }
+
+  .top_destination_cards .card_img {
+    padding: 8px;
+    grid-column: 1 / -1;
+  }
+
+  .top_destination_title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .top_destination_desc,
+  .top_destination_cards .card_desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .top_destination_cards .card_title_and_price h3 {
+    font-size: 18px;
+    font-weight: 700;
   }
 }
