@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   body {
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
 
   .menu_link {
@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 0.9375rem;
     position: absolute;
     top: 95%;
     left: 0;
@@ -20,46 +20,46 @@
 
   
   .menu_link a {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .hamburger_menu:hover + ul {
-    max-height: 1000px;
+    max-height: 62.5rem;
     color: red;
   }
 
   nav {
-    padding: 20px;
+    padding: 1.25rem;
   }
   nav > ul {
     display: none;
   }
   .logo_container {
-    gap: 10px;
+    gap: 0.625rem;
   }
   .logo_container h3 {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .logo_container img {
-    width: 29px;
-    height: 33px;
+    width: 1.8125rem;
+    height: 2.0625rem;
   }
   .hamburger_menu {
     display: block;
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
   /* ! banner section */
   .banner {
-    margin-top: 45px;
+    margin-top: 2.8125rem;
     width: 100%;
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
     gap: unset;
   }
   .banner form {
     flex-direction: column;
     width: 100%;
-    margin-top: 32px;
+    margin-top: 2rem;
   }
   .banner form input,
   .banner form button {
@@ -67,12 +67,12 @@
   }
 
   .banner_title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .banner_desc {
-    font-size: 14px;
-    line-height: 24px;
-    margin-top: 10px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin-top: 0.625rem;
   }
 
   .select {
@@ -81,52 +81,52 @@
 
   /* ! popular section */
   .popular {
-    margin-top: 24px;
+    margin-top: 1.5rem;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
   }
 
   .popular_content {
-    gap: 16px;
+    gap: 1rem;
   }
 
   .popular_content_title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .popular_content_desc,
   .popular_list li {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 
   .popular_list li {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   /* ! destination section */
   .destination {
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
 
   .destination_content {
-    gap: 16px;
+    gap: 1rem;
   }
 
   .destination_title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .destination_desc {
-    max-width: 309px;
-    font-size: 14px;
-    line-height: 24px;
+    max-width: 19.3125rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 
   .destination_img_grid {
-    margin-top: 20px;
-    grid-template-rows: repeat(7, 176px);
-    gap: 16px 0;
+    margin-top: 1.25rem;
+    grid-template-rows: repeat(7, 11rem);
+    gap: 1rem 0;
     grid-template-areas:
       "i1 i1 i1 i1 i1 i1 i1 i1 i1 i1 i1 i1"
       "i2 i2 i2 i2 i2 i2 i2 i2 i2 i2 i2 i2"
@@ -138,51 +138,51 @@
   }
 
   .destination_img_grid > div p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
   }
   /* ! service section */
 
   .service {
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
 
   .service_content {
-    gap: 16px;
+    gap: 1rem;
   }
 
   .service_title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .service_desc {
-    max-width: 309px;
-    font-size: 14px;
-    line-height: 24px;
+    max-width: 19.3125rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 
   .service_card_container {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     grid-template-rows: repeat(3, 1fr);
-    gap: 16px 0;
+    gap: 1rem 0;
     grid-template-areas:
       "c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1"
       "c2 c2 c2 c2 c2 c2 c2 c2 c2 c2 c2 c2"
       "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 ";
   }
   .service .card_title {
-    margin-top: 16px;
-    font-size: 20px;
+    margin-top: 1rem;
+    font-size: 1.25rem;
   }
 
   .service .card_desc {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 
   /* ! newsletter section */
   .newsletter {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .newsletter {
     grid-template-columns: repeat(1, 1fr);
@@ -195,7 +195,7 @@
   }
 
   .newsletter_content {
-    padding: 24px;
+    padding: 1.5rem;
   }
 
   .newsletter_img .discount {
@@ -204,11 +204,11 @@
   }
 
   .newsletter_img .discount p {
-    font-size: 15.854px;
+    font-size: 0.9909rem;
   }
 
   .newsletter_img .discount h3 {
-    font-size: 21.138px;
+    font-size: 1.3211rem;
   }
 
   .newsletter_img .discount {
@@ -216,69 +216,69 @@
   }
 
   .newsletter_title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .newsletter_desc {
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 0.625rem;
+    font-size: 0.875rem;
   }
   /* ! footer section */
   footer {
-    margin-top: 20px;
-    padding: 32px 10px;
+    margin-top: 1.25rem;
+    padding: 2rem 0.625rem;
   }
   .footer_title {
-    gap: 9px;
+    gap: 0.5625rem;
   }
   .footer_title h3 {
-    font-size: 21px;
+    font-size: 1.3125rem;
   }
 
   .footer_desc {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
   .footer_desc {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
 
   .footer_link {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
 
   footer .hr {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
 
   .footer_link a i {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   /* ! deals and discount section */
   .deals_and_discount {
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
 
   .deals_and_discount_title {
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 0.625rem;
+    font-size: 1.25rem;
   }
 
   .deals_and_discount_desc {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 
   .deals_and_discount_grid {
-    gap: 16px;
+    gap: 1rem;
   }
 
   .deals_and_discount_grid .item {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     align-items: end;
-    padding: 16px;
+    padding: 1rem;
   }
 
   .deals_and_discount_grid .item-1 .discount_card {
@@ -294,77 +294,77 @@
   }
 
   .discount_card {
-    padding: 24px;
+    padding: 1.5rem;
   }
 
   .discount_card_title {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
   }
   .discount_card_desc {
-    margin-bottom: 12px;
-    font-size: 14px;
-    line-height: 24px;
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 
   .discount_card_price {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .discount_card_btn {
-    padding: 9px 19px;
-    font-size: 18px;
+    padding: 0.5625rem 1.1875rem;
+    font-size: 1.125rem;
     font-weight: 700;
   }
 
   .discount_card .heading i {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .discount_card .heading span {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   /* ! perfect place section */
   .perfect_place {
-    margin-top: 24px;
+    margin-top: 1.5rem;
     grid-template-columns: repeat(1, 1fr);
-    gap: 24px 0;
+    gap: 1.5rem 0;
   }
 
   .perfect_place_img > p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .perfect_place_title {
-    margin-bottom: 16px;
-    font-size: 20px;
-    max-width: 248px;
-    line-height: 30px;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    max-width: 15.5rem;
+    line-height: 1.875rem;
   }
 
   .perfect_place_desc {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     color: rgba(19, 19, 24, 0.7);
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 
   .perfect_place_list li {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 
   .perfect_place_lis {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
 
   /* ! top destination section */
   .top_destination {
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
   .top_destination_cards {
-    margin-top: 24px;
+    margin-top: 1.5rem;
     grid-template-columns: repeat(1, 1fr);
-    gap: 16px;
+    gap: 1rem;
   }
   .top_destination_cards .card {
     padding: unset;
@@ -376,21 +376,21 @@
   }
 
   .top_destination_cards .card_img {
-    padding: 8px;
+    padding: 0.5rem;
     grid-column: 1 / -1;
   }
 
   .top_destination_title {
-    font-size: 20px;
-    margin-bottom: 16px;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
   .top_destination_desc,
   .top_destination_cards .card_desc {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
   .top_destination_cards .card_title_and_price h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
   }
 }
