@@ -74,7 +74,6 @@
   .popular_list li {
     font-size: 14px;
     line-height: 24px;
-    
   }
 
   .popular_list li {
@@ -230,5 +229,70 @@
 
   .footer_link a i {
     font-size: 20px;
+  }
+
+  /* ! deals and discount section */
+
+  .deals_and_discount_title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .deals_and_discount_desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .deals_and_discount_grid {
+    gap: 16px;
+  }
+
+  .deals_and_discount_grid .item {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: end;
+    padding: 16px;
+  }
+
+  .deals_and_discount_grid .item-1 .discount_card {
+    grid-column: 1 / span 6;
+  }
+
+  .deals_and_discount_grid .item-2 .discount_card {
+    grid-column: 1 / span 6;
+  }
+
+  .deals_and_discount_grid .item-3 .discount_card {
+    grid-column: 1 / span 6;
+  }
+
+  .discount_card {
+    padding: 24px;
+  }
+
+  .discount_card_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .discount_card_desc {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .discount_card_price {
+    font-size: 16px;
+  }
+  .discount_card_btn {
+    padding: 9px 19px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .discount_card .heading i {
+    font-size: 15px;
+  }
+  .discount_card .heading span {
+    font-size: 14px;
   }
 }

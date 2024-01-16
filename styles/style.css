@@ -695,3 +695,136 @@ footer .hr {
   font-weight: 300;
 }
 /* !  footer section end here */
+
+/* ! deals and discount section start here */
+.deals_and_discount_title {
+  margin-bottom: 24px;
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.deals_and_discount_desc {
+  margin: 0 auto;
+  max-width: 643px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.deals_and_discount_grid {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.deals_and_discount_grid .item {
+  overflow: hidden;
+  min-height: 500px;
+  border-radius: 16px;
+  background-image: url("../Images/deals1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.deals_and_discount_grid .item {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  align-items: center;
+
+}
+
+.deals_and_discount_grid .item-1 .discount_card {
+ grid-column: 7 / span 5;
+}
+.deals_and_discount_grid .item-2 .discount_card{
+
+   grid-column: 2 / span 5;
+}
+.deals_and_discount_grid .item-3  .discount_card{
+  grid-column: 7 / span 5;
+}
+
+.deals_and_discount_grid .item-2 {
+  background-image: url("../Images/deals2.png");
+}
+
+/* ! card */
+.discount_card {
+  padding: 50px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+
+.discount_card .heading {
+  margin-bottom: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
+.discount_card .heading > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.discount_card .heading i {
+  font-size: 20px;
+  color: #ff5400;
+}
+
+.discount_card .heading span {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.discount_card_title {
+  margin-bottom: 16px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.discount_card_desc {
+  margin-bottom: 16px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 452px;
+}
+
+.discount_card_price {
+  margin-bottom: 24px;
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+}
+.discount_card_btn {
+  padding: 14px 25px;
+  border-radius: 8px;
+  background: #ff5400;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+}
+/* ! deals and discount section end here */
