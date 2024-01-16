@@ -46,14 +46,22 @@
 
         <form>
           <input type="text" placeholder="Where go" class="location" />
-          <div class="dropdown">
-            <input type="text" placeholder="When" class="time" />
-            <i class="fa-solid fa-chevron-down"></i>
+
+          <div class="select">
+            <select name="time">
+              <option value="when">When</option>
+            </select>
+            <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
           </div>
-          <div class="dropdown">
-            <input type="text" placeholder="Select Type" class="type" />
-            <i class="fa-solid fa-chevron-down"></i>
+          <div class="select">
+            <select name="type" id="select-2">
+              <option value="select-type">Select Type</option>
+            </select>
+            <span class="focus arrow"
+              ><i class="fa-solid fa-chevron-down"></i
+            ></span>
           </div>
+
           <button type="submit" class="btn find_now_bnt">
             <i class="fa-solid fa-magnifying-glass"></i>
             Find Now

@@ -124,6 +124,7 @@ nav a {
   padding: 16px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 24px;
 }
 
@@ -135,7 +136,77 @@ nav a {
   padding: 16px;
 }
 
-.dropdown {
+.find_now_bnt {
+  padding: 16px 34px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* ?! select styles  */
+.banner form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  padding: 16px 130px 16px 16px;
+}
+
+#select-2 {
+  padding: 16px 85px 16px 16px;
+}
+
+.select {
+  font-family: Mulish;
+  border: 1px solid #ff5400;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  /* background-image: linear-gradient(to top, #f9f9f9, #fff 33%); */
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  right: 6%;
+  top: 31%;
+}
+
+.arrow i {
+  font-size: 18px;
+  color: #666;
+}
+
+select::-ms-expand {
+  display: none;
+}
+/* ?! select styles  */
+
+.banner form input::placeholder {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* .dropdown {
   position: relative;
 }
 
@@ -144,7 +215,7 @@ nav a {
   color: rgba(0, 0, 0, 0.8);
   top: 33%;
   right: 7%;
-}
+} */
 
 .find_now_bnt {
   padding: 16px 34px;
@@ -159,14 +230,6 @@ nav a {
 .find_now_bn i {
   margin-right: 6px;
 }
-
-.banner form input::placeholder {
-  color: rgba(19, 19, 24, 0.5);
-  font-family: Mulish;
-  font-size: 16px;
-  font-weight: 400;
-}
-
 /* ! banner section end here */
 /* ! popular section start here */
 .popular {

@@ -51,6 +51,10 @@
     margin-top: 10px;
   }
 
+  .select {
+    width: 100%;
+  }
+
   /* ! popular section */
   .popular {
     margin-top: 24px;
