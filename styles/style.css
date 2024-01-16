@@ -55,7 +55,7 @@ nav {
 }
 
 .logo_container span {
-  color: #ff5400;
+  color: #7d5fff;
 }
 
 nav > ul {
@@ -82,7 +82,7 @@ nav a::before {
   position: absolute;
   width: 0;
   height: 0.25rem;
-  background-color: #ff5400;
+  background-color: #7d5fff;
   bottom: -30%;
   border-radius: 0.3125rem;
   transition: width 0.4s ease-in-out;
@@ -92,7 +92,7 @@ nav a:hover::before {
 }
 
 .highlight {
-  color: #ff5400;
+  color: #7d5fff;
   font-weight: 700;
 }
 
@@ -161,7 +161,7 @@ nav a:hover::before {
 .find_now_bnt {
   padding: 1rem 2.125rem;
   border-radius: 0.5rem;
-  background: #ff5400;
+  background: #7d5fff;
   color: #fff;
   text-align: center;
   font-family: 'Mulish', sans-serif;
@@ -195,7 +195,7 @@ nav a:hover::before {
 
 .select {
   font-family: 'Mulish', sans-serif;
-  /* border: 0.0625rem solid #ff5400; */
+  /* border: 0.0625rem solid #7d5fff; */
   border-radius: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
@@ -242,7 +242,7 @@ select::-ms-expand {
 .find_now_bnt {
   padding: 1rem 2.125rem;
   border-radius: 0.5rem;
-  background: #ff5400;
+  background: #7d5fff;
   color: #fff;
   text-align: center;
   font-family: 'Mulish', sans-serif;
@@ -298,7 +298,7 @@ select::-ms-expand {
   font-family: 'Mulish', sans-serif;
   font-size: 1.25rem;
   font-weight: 800;
-  background-color: #ff5400;
+  background-color: #7d5fff;
   border-radius: 0.5rem;
 }
 
@@ -547,7 +547,7 @@ select::-ms-expand {
 .newsletter_content {
   padding: 2.5rem;
   border-radius: 1rem;
-  border: 0.0625rem solid #ff5400;
+  border: 0.0625rem solid #7d5fff;
   grid-column: 1 / span 5;
 }
 
@@ -609,7 +609,7 @@ select::-ms-expand {
 .newsletter_form input[type="submit"] {
   margin-top: 0.5rem;
   border-radius: 0.5rem;
-  background: #ff5400;
+  background: #7d5fff;
   color: #fff;
   font-family: 'Mulish', sans-serif;
   font-size: 1.25rem;
@@ -622,7 +622,7 @@ select::-ms-expand {
   transform: rotate(-19.628deg);
   flex-shrink: 0;
   border-radius: 1rem;
-  background: #ff5400;
+  background: #7d5fff;
   position: absolute;
   right: 2%;
   bottom: 13%;
@@ -675,7 +675,7 @@ footer {
 }
 
 .footer_title h3 span {
-  color: #ff5400;
+  color: #7d5fff;
 }
 
 .footer_desc {
@@ -804,7 +804,7 @@ footer .hr {
 
 .discount_card .heading i {
   font-size: 1.25rem;
-  color: #ff5400;
+  color: #7d5fff;
 }
 
 .discount_card .heading span {
@@ -834,7 +834,7 @@ footer .hr {
 
 .discount_card_price {
   margin-bottom: 1.5rem;
-  color: #ff5400;
+  color: #7d5fff;
   font-family: 'Mulish', sans-serif;
   font-size: 1.25rem;
   font-weight: 800;
@@ -842,7 +842,7 @@ footer .hr {
 .discount_card_btn {
   padding: 0.875rem 1.5625rem;
   border-radius: 0.5rem;
-  background: #ff5400;
+  background: #7d5fff;
 
   color: #fff;
   text-align: center;
@@ -898,7 +898,7 @@ footer .hr {
 .perfect_place_btn {
   padding: 0.875rem 2.625rem;
   border-radius: 0.5rem;
-  background: #ff5400;
+  background: #7d5fff;
   color: #fff;
   text-align: center;
   font-family: 'Mulish', sans-serif;
